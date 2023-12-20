@@ -69,12 +69,11 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(250, 226, 187, 255);
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: right;
     text-align: center;
-    color: white;
+    color: #a43f3d;
     font-size: 20px;
     z-index: 1000;
 }

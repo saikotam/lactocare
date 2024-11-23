@@ -33,23 +33,22 @@
     var height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
 
     // Assuming mobile devices have a width less than or equal to 768px
-    if (width > 768) {
-        document.getElementById("overlay").style.display = "flex";
-        var qrcodeContainer = document.getElementById('qrcode');
-        if (qrcodeContainer) {
-            new QRCode(qrcodeContainer, {
-                text: "https://lactocare.in", // Replace with your website's URL
-                width: 128,
-                height: 128,
-                colorDark: "#000000",
-                colorLight: "#ffffff",
-                correctLevel: QRCode.CorrectLevel.H
-        });
-    }
-    }
-};
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    // if (width > 768) {
+    //   document.getElementById("overlay").style.display = "flex";
+    //   var qrcodeContainer = document.getElementById('qrcode');
+    //   if (qrcodeContainer) {
+    //        new QRCode(qrcodeContainer, {
+    //            text: "https://lactocare.in", // Replace with your website's URL
+    //            width: 128,
+    //            height: 128,
+    //            colorDark: "#000000",
+    //            colorLight: "#ffffff",
+    //            correctLevel: QRCode.CorrectLevel.H
+    //    });
+    } 
+
+   </script>
+   <!--   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script> -->
 
 <!-- <script type="text/javascript">
 if (screen.width >= 699) {
@@ -95,9 +94,9 @@ document.location = "https://www.amazon.in/Lactocare/dp/B09CJDW268/ref=sr_1_1?m=
             <div id="qrcode"></div>
         </div>
     </div>
-    <div class="fixed-top"><img alt="design" src="/img/Picture1.svg" class="img-fluid hideon"> </div>
+    <div class="fixed-top"><img alt="design" src="/img/Picture1.svg" class="img-fluid "> </div>
    
-    <div class="fixed-bottom"><img alt="design" src="/img/Picture2.svg" class="img-fluid hideon"></div>
+    <div class="fixed-bottom"><img alt="design" src="/img/Picture2.svg" class="img-fluid "></div>
     <div class="fixed-bottom text-right"><p><a href="https://www.1mg.com/otc/lactocare-ideal-health-vitalizer-otc789161"><img alt="buy on Tata 1mg.com" style="max-width:40%;border-radius: 8px;" src="/img/1mg.gif" class=""></a></p><p><a href="https://www.amazon.in/Lactocare/dp/B09CJDW268/ref=sr_1_1?m=A1BDDUSMF7GT28&marketplaceID=A21TJRUUN4KGV&qid=1657784476&s=merchant-items&sr=1-1"><img alt="buy on amazon" style="max-width:40%;" src="/img/amazbuy.gif" class=""></a></p><img alt="yes yes logo" src="/img/Leaves.svg" class="leve"></div>
     <div class="fixed-bottom">
     <div class=" arrow">
@@ -138,14 +137,6 @@ document.location = "https://www.amazon.in/Lactocare/dp/B09CJDW268/ref=sr_1_1?m=
             <li class="nav-item">
                 <a class="nav-link active" href="#contactus">Contact Us<span class="sr-only">(current)</span></a>
             </li>
-            <!--<li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-            </li>-->
         </ul>
         
     </div>
